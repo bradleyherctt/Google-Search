@@ -1,0 +1,76 @@
+#logo {
+  display: block;
+  margin: 172px auto 0 auto;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+  top: 13px;
+}
+
+a {
+  font-family: Arial;
+  font-size: 13px;
+  color: #464343;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.topleft {
+  position: relative;
+  padding-left: 17px;
+}
+
+.topright {
+  float: right;
+}
+
+.search {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#Gmail {
+  position: relative;
+  right: 127px;
+}
+
+#Images {
+  position: relative;
+  right: 112px;
+}
+
+#Store {
+  position: relative;
+  right: 2px;
+}
+
+input[type=text] {
+  width: 41%;
+  box-sizing: border-box;
+  font-size: 21px;
+  border: 1px solid #dfdfdf;
+  border-radius: 30px;
+  border-spacing: 0px;
+  background-image: url(../image/searchicon1.png);
+  background-color: white;
+  background-position: 15px 14px;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  padding: 6px 0px 14px 40px;
+}
+
+input[type=text]:hover {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
