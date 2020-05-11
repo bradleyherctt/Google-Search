@@ -3,7 +3,6 @@
   margin: 172px auto 0 auto;
 }
 
-
 ul {
   list-style-type: none;
   margin: 0px;
@@ -54,6 +53,44 @@ a:hover {
 #Store {
   position: relative;
   right: 2px;
+}
+
+.gb_D {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 21px;
+  width: 21px;
+  cursor: pointer;
+  text-decoration: none;
+  fill: currentColor;
+  background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-position: 27% 90%;
+  opacity: 55%;
+  position: relative;
+  left: 6px;
+}
+
+.profile {
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+}
+
+.gb_Ia {
+  background-size: 32px 32px;
+  border-radius: 50%;
+  display: block;
+  margin: -1px;
+  overflow: hidden;
+  position: relative;
+  left: 75px;
+  bottom: 5px;
+  height: 32px;
+  width: 32px;
+  background-image: url(https://lh3.googleusercontent.com/ogw/ADGmqu8GPlM83HGUU1wQFfcuVnhsf7C9iKmSyZmzsB1a=s64-c-mo);
 }
 
 input[type=text] {
