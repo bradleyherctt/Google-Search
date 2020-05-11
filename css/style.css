@@ -96,7 +96,7 @@ a:hover {
 input[type=text] {
   width: 41%;
   box-sizing: border-box;
-  font-size: 21px;
+  font-size: 16px;
   border: 1px solid #dfdfdf;
   border-radius: 30px;
   border-spacing: 0px;
@@ -105,7 +105,7 @@ input[type=text] {
   background-position: 15px 14px;
   background-repeat: no-repeat;
   background-size: 15px 15px;
-  padding: 6px 0px 14px 40px;
+  padding: 12px 0px 14px 47px;
 }
 
 input[type=text]:hover {
