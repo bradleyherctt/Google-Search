@@ -57,7 +57,15 @@ a:hover {
 
 .twob {
   text-align: center;
-  margin-top: 3Par0px;
+  margin-top: 30px;
+}
+
+.bottom {
+  background-color: rgb(242, 242, 242);
+  border-top-color: #5e5c5c;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #twob1 {
