@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial;
+}
+
 #logo {
   display: block;
   margin: 172px auto 0 auto;
