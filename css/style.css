@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #logo {
   display: block;
   margin: 172px auto 0 auto;
@@ -28,31 +33,33 @@ a:hover {
 
 .topleft {
   position: relative;
-  padding-left: 17px;
+  padding-left: 25px;
+  padding-top: 8px;
 }
 
 .topright {
   float: right;
+  padding-right: 25px;
+  padding-top: 8px;
 }
 
 .search {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 27px;
 }
 
 #Gmail {
-  position: relative;
-  right: 127px;
+  margin-right: -5px;
 }
 
 #Images {
   position: relative;
-  right: 112px;
+  margin-left: -5px;
 }
 
 #Store {
   position: relative;
-  right: 2px;
+  right: 10px;
 }
 
 .twob {
@@ -62,10 +69,49 @@ a:hover {
 
 .bottom {
   background-color: rgb(242, 242, 242);
-  border-top-color: #5e5c5c;
+  width: 100%;
+  display: inline-block;
   position: fixed;
   bottom: 0;
+}
+
+.topb {
+  background-color: rgb(242, 242, 242);
   width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.topb p {
+  display: inline-block;
+  text-align: center;
+  padding: 11px 11px 12px 11px;
+  color: #6e6b6b;
+  font-size: 15px;
+  font-family: Arial;
+  margin-left: 20px;
+}
+
+.bl a {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 11px 12px 11px;
+  color: #6e6b6b;
+  font-size: 14px;
+  position: relative;
+  left: 20px;
+}
+
+.bottom hr {
+  border-width: 0.5px;
+  opacity: 30%;
+}
+
+.br {
+  float: right;
+  display: inline;
+  position: relative;
+  right: 40px;
 }
 
 #twob1 {
@@ -74,11 +120,11 @@ a:hover {
 
 #GSB, #FLB {
   display: inline-block;
-  margin: 26px 4px 0 4px;
+  margin: 30px 4px 0 4px;
   font-size: 14px;
   color: #6f6d6d;
   font-family: Arial;
-  padding: 8px 16px 9px 16px;
+  padding: 8px 16px 8px 16px;
   border-color: transparent;
   background-color: rgb(242, 242, 242);
   border-radius: 5px;
@@ -105,7 +151,7 @@ a:hover {
   background-position: 27% 90%;
   opacity: 55%;
   position: relative;
-  left: 6px;
+  margin-left: -6px;
 }
 
 #french {
@@ -122,19 +168,19 @@ a:hover {
 .gb_Ia {
   background-size: 32px 32px;
   border-radius: 50%;
-  display: block;
+  display: inline-block;
   margin: -1px;
   overflow: hidden;
   position: relative;
-  left: 75px;
   bottom: 5px;
+  right: 5px;
   height: 32px;
   width: 32px;
   background-image: url(https://lh3.googleusercontent.com/ogw/ADGmqu8GPlM83HGUU1wQFfcuVnhsf7C9iKmSyZmzsB1a=s64-c-mo);
 }
 
 input[type=text] {
-  width: 41%;
+  width: 40%;
   box-sizing: border-box;
   font-size: 16px;
   border: 1px solid #dfdfdf;
