@@ -109,7 +109,7 @@ a:hover {
 
 .br {
   float: right;
-  display: inline;
+  display: inline-block;
   position: relative;
   right: 40px;
 }
